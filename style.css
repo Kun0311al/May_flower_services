@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar img{
+
+}
+
+.brand-title {
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    text-decoration: underline;
+}
+
+.active_1{
+    text-decoration: underline;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar button{
+    background-color: gold;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .brand-title {
+        padding-left: 10px;
+    }
+}
