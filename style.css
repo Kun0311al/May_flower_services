@@ -1,120 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
-
 *{
-    font-family: 'Nunito Sans', sans-serif;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Hauora';
 }
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    padding: 15px 30px;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-}
-
-.navbar img{
-
-}
-
-.brand-title {
-    margin: .5rem;
-}
-
-.navbar-links {
-    height: 100%;
-}
-
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    align-items: center;
-}
-
-.navbar-links li {
+header li{
     list-style: none;
 }
 
-.navbar-links li a {
-    display: block;
+header a{
     text-decoration: none;
-    color: rgb(39, 39, 39);
-    padding: 1rem;
+    color:#140001;
+    font-size: 1rem;
 }
 
-.navbar-links li:hover {
-    text-decoration: underline;
+header a:hover{
+    color: #201c1d;
 }
 
-.active_1{
-    text-decoration: underline;
+header{
+    position: relative;
+    padding-top: 0.6rem;
+    padding-bottom: 0.2rem;
 }
 
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
+.navbar{
     width: 100%;
-    background-color: black;
-    border-radius: 10px;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.navbar button{
-    background-color: gold;
-    padding: 12px 40px;
-    border-radius: 10px;
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .toggle_btn{
+    color:#140001;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.login_btn{
+    background-color: #FDCB16;
+    color: #140001;
+    padding: 0.9rem 3rem;
     border: none;
-    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.login_btn:hover{
+    scale: 1.05;
+}
 
-    .toggle-button {
-        margin-top: 20px;
-        display: flex;
-    }
+/* dropdown*/
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgba(138, 138, 138, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-    .navbar-links {
+.dropdown_menu.open{
+    height: 240px;
+}
+
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu .login_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*responsive navbar*/
+@media (max-width: 992px){
+    .navbar{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .navbar .links,
+    .navbar .login_btn{
         display: none;
-        width: 100%;
     }
 
-    .navbar-links ul {
-        padding: 0;
-        width: 100%;
-        flex-direction: column;
+    .navbar .toggle_btn{
+        background: #a2a2a2;
+        padding: 0.2rem 0.3rem;
+        border-radius: 3px;
+        display: block;
     }
+    .dropdown_menu{
+        display: block;
+    }
+}
 
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-    .brand-title {
-        padding-left: 10px;
+@media (max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
     }
 }

@@ -7,31 +7,52 @@
     <title>MAYFLOWER TRUCKING SERVICES</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="navbar">
-        <div class="brand-title"><a href="index.html"><img
-                    src="images/The Institution of Electronics and Telecommunication Engineers, Mumbai Center.png"
-                    alt="logo"></a></div>
-        <div class="navbar-links">
-            <ul>
-                <li class="active_1"><a href="index.html"><b>Home</b></a></li>
-                <li><a href=""><b>About-Us</b></a></li>
-                <li><a href=""><b>SERVICES</b></a></li>
-                <li><a href=""><b>Contact</b></a></li>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="assets/mayflowerlogo1 1logo.png" alt="logo"></a></div>
+            <ul class="links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About-us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-            <a class="log-in" href=""><button>Log-in</button></a>
+            <a href="" class="login_btn">Log-in</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-    </nav>
 
-    <script src="script.js"></script>
+        <div class="dropdown_menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About-us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="" class="login_btn">Log-in</a></li>
+        </div>
+    </header>
+
+    
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
 </body>
 
 </html>
