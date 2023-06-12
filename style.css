@@ -231,7 +231,7 @@ header {
         margin: 0;
     }
 
-    
+
     .stat :nth-child(1) {
         order: 1;
     }
@@ -243,13 +243,13 @@ header {
 
 /*contact us*/
 
-.contact_us{
+.contact_us {
     margin-top: 20px;
     padding: 35px 30px;
 }
 
 input[type=text],
-input[type=email]{
+input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -259,10 +259,10 @@ input[type=email]{
     margin-bottom: 16px;
     resize: vertical;
     font-size: 16px;
-  }
-  
-  input[type=submit] {
-    width:100%;
+}
+
+input[type=submit] {
+    width: 100%;
     background-color: #133A73;
     color: white;
     padding: 12px 20px;
@@ -271,22 +271,22 @@ input[type=email]{
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 8px 10px 0 #133A73;
-  }
-  
+}
+
 /*m_insurance*/
-#m_insurance{
+#m_insurance {
     padding: 0 6%;
     margin-top: 1rem;
 }
 
-#m_insurance .head_line{
+#m_insurance .head_line {
     color: #133A73;
     padding: 0 1%;
     font-size: 97px;
     text-align: right;
 }
 
-#m_insurance img{
+#m_insurance img {
     width: 65%;
     padding: 0 15px;
 }
@@ -297,25 +297,84 @@ input[type=email]{
         font-weight: bold;
     }
 
-    #m_insurance img{
+    #m_insurance img {
         width: 100%;
         padding: 0 15px;
     }
 }
 
 /*about_us*/
-#about_us{
+.row2 {
+    width: 100%;
+}
+
+#about_us {
     padding: 0 6%;
     margin-top: 4rem;
 }
 
-#about_us .head_line{
+#about_us .head_line {
     color: #133A73;
     padding: 0 1%;
-    font-size: 105px;
+    font-size: 85px;
+    width: 100%;
 }
 
-#about_us .about_p{
+#about_us .reshead_line {
+    display: none;
+    position: absolute;
+}
+
+#about_us .about_p {
     font-size: 24px;
     color: #133A73;
+}
+
+#about_us .column3 {
+    flex: 40%;
+    display: justify;
+}
+
+#about_us .column4 {
+    flex: 60%;
+    display: justify;
+}
+
+#about_us img {
+    width: 100%;
+    padding: 0 15px;
+}
+
+@media (max-width: 992px) {
+    #about_us .head_line {
+        display: none;
+    }
+
+    #about_us .reshead_line {
+        display: block;
+        position: static;
+        color: #133A73;
+        padding: 1% 1%;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    #about_us img {
+        width: 100%;
+        padding: 9px 1px 0px 1px;
+    }
+
+    #about_us .about_p {
+        padding-top: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .about :nth-child(2) {
+        order: 2;
+    }
+
+    .about :nth-child(1) {
+        order: 3;
+    }
 }
