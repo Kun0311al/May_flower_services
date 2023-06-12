@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hauora';
+    font-family: 'Manrope', sans-serif;;
 }
 
 body {
@@ -208,12 +209,13 @@ header {
 }
 
 .stat h3 {
-    font-size: 18px;
+    font-size: 13px;
+    font-weight: 100;
     margin-bottom: 10px;
 }
 
 .stat p {
-    font-size: 35px;
+    font-size: 37px;
     margin: 0;
 }
 
@@ -250,12 +252,29 @@ header {
 .contact_us {
     margin-top: 20px;
     padding: 35px 30px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 15px;
+    min-width: 40px;
 }
 
 .contact_us input[type=text],
 .contact_us input[type=email] {
     width: 100%;
     padding: 12px;
+    padding-left: 50px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
@@ -286,7 +305,7 @@ header {
 #m_insurance .head_line {
     color: #133A73;
     padding: 0 1%;
-    font-size: 97px;
+    font-size: 85px;
     text-align: right;
 }
 
@@ -297,7 +316,7 @@ header {
 
 @media (max-width: 992px) {
     #m_insurance .head_line {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     }
 
@@ -320,7 +339,7 @@ header {
 #about_us .head_line {
     color: #133A73;
     padding: 0 1%;
-    font-size: 85px;
+    font-size: 80px;
     width: 100%;
 }
 
@@ -330,8 +349,9 @@ header {
 }
 
 #about_us .about_p {
-    font-size: 24px;
+    font-size: 18px;
     color: #133A73;
+    font-weight: lighter;
 }
 
 #about_us .column3 {
@@ -391,7 +411,7 @@ header {
 
 #services .head_line {
     color: #133A73;
-    font-size: 85px;
+    font-size: 80px;
     width: 100%;
 }
 
@@ -416,7 +436,8 @@ header {
 }
 
 .service_para {
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: lighter;
     color: #133A73;
     margin: 0;
 }
@@ -453,7 +474,7 @@ header {
 
     .service_para {
         font-size: 15px;
-        font-weight: 600;
+        font-weight: lighter;
     }
 }
 
@@ -481,9 +502,11 @@ header {
     background-color: #E9E6DE;
     border-radius: 10px;
     justify-content: center;
-    align-items: center;
 }
 
+.p_info span{
+    font-size: 10px;
+}
 .seprator {
     justify-content: space-between;
     align-items: center;
@@ -511,7 +534,7 @@ header {
 
 @media(max-width: 992px) {
     #reviews .head_line {
-        font-size: 30px;
+        font-size: 28px;
         padding: 0 2rem;
         font-weight: bold;
     }
@@ -538,7 +561,7 @@ header {
 #help_desk .head_line {
     text-align: center;
     color: #133A73;
-    font-size: 97px;
+    font-size: 80px;
     width: 100%;
 }
 
@@ -557,12 +580,27 @@ header {
     padding: 35px 30px;
 }
 
+.contact_form .input-icons i {
+    position: absolute;
+}
+  
+.contact_form .input-icons {
+    width: 100%;
+}
+  
+.contact_form .icon {
+    padding-top: 20px;
+    padding-left: 60px;
+    min-width: 40px;
+}
+
 .contact_form input[type=text],
 .contact_form input[type=email] {
     width: 40%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    padding-left: 35px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -607,6 +645,12 @@ header {
         margin-top: 4rem;
     }
     
+    .contact_form .icon {
+        padding-top: 20px;
+        padding-left: 15px;
+        min-width: 40px;
+    }
+
     .contact_form input[type=text],
     .contact_form input[type=email] {
         width: 100%;
