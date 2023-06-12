@@ -139,7 +139,7 @@ header {
     padding: 0 6%;
 }
 
-#hero p {
+#hero .head_line {
     color: #133A73;
     padding: 0 1%;
     font-size: 90px;
@@ -151,7 +151,7 @@ header {
 }
 
 @media (max-width: 992px) {
-    #hero p {
+    #hero .head_line {
         font-size: 25px;
         font-weight: bold;
     }
@@ -164,5 +164,72 @@ header {
         width: 100%;
         padding: 0%;
         border-radius: 0%;
+    }
+
+
+    .hero :nth-child(1) {
+        order: 2;
+    }
+
+    .hero :nth-child(2) {
+        order: 1;
+    }
+}
+
+/* subscriber board*/
+
+.hero {
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E9E6DE;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 35px;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 110%;
+        margin-top: 10px;
+        padding: 40px 30px;
+        align-items: left;
+    }
+
+    .stat h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .stat p {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    
+    .stat :nth-child(1) {
+        order: 1;
+    }
+
+    .stat :nth-child(2) {
+        order: 2;
     }
 }
