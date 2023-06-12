@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Manrope', sans-serif;;
+    font-family: 'Manrope', sans-serif;
+    ;
 }
 
 body {
@@ -253,18 +255,18 @@ header {
     margin-top: 20px;
     padding: 35px 30px;
     font-size: 20px;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 .input-icons i {
     position: absolute;
 }
-  
+
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
 }
-  
+
 .icon {
     padding: 15px;
     min-width: 40px;
@@ -504,9 +506,10 @@ header {
     justify-content: center;
 }
 
-.p_info span{
+.p_info span {
     font-size: 10px;
 }
+
 .seprator {
     justify-content: space-between;
     align-items: center;
@@ -583,11 +586,11 @@ header {
 .contact_form .input-icons i {
     position: absolute;
 }
-  
+
 .contact_form .input-icons {
     width: 100%;
 }
-  
+
 .contact_form .icon {
     padding-top: 20px;
     padding-left: 60px;
@@ -622,21 +625,24 @@ header {
     margin-left: 11rem;
 }
 
-@media(max-width: 992px){
-    #help_desk{
+@media(max-width: 992px) {
+    #help_desk {
         margin: 1rem;
     }
+
     #help_desk .head_line {
         text-align: left;
         font-size: 32px;
         font-weight: bold;
         margin-top: 4rem;
     }
+
     #help_desk h1 {
         margin: 1rem 0;
         text-align: left;
         font-size: 20px;
     }
+
     .contact_form {
         width: 100%;
         background-color: #133A73;
@@ -644,7 +650,7 @@ header {
         margin: 0;
         margin-top: 4rem;
     }
-    
+
     .contact_form .icon {
         padding-top: 20px;
         padding-left: 15px;
@@ -659,9 +665,9 @@ header {
         box-sizing: border-box;
         resize: vertical;
         font-size: 16px;
-        margin-left: 0;        
+        margin-left: 0;
     }
-    
+
     .contact_form input[type=submit] {
         width: 100%;
         background-color: #E9E6DE;
