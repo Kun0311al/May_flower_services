@@ -273,3 +273,10 @@ input[type=email]{
     box-shadow: 0 8px 10px 0 #133A73;
   }
   
+/*m_insurance*/
+#m_insurance .head_line{
+    color: #133A73;
+    padding: 0 1%;
+    font-size: 97px;
+    text-align: right;
+}
