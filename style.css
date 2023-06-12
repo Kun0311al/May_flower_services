@@ -274,9 +274,48 @@ input[type=email]{
   }
   
 /*m_insurance*/
+#m_insurance{
+    padding: 0 6%;
+    margin-top: 1rem;
+}
+
 #m_insurance .head_line{
     color: #133A73;
     padding: 0 1%;
     font-size: 97px;
     text-align: right;
+}
+
+#m_insurance img{
+    width: 65%;
+    padding: 0 15px;
+}
+
+@media (max-width: 992px) {
+    #m_insurance .head_line {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #m_insurance img{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+/*about_us*/
+#about_us{
+    padding: 0 6%;
+    margin-top: 4rem;
+}
+
+#about_us .head_line{
+    color: #133A73;
+    padding: 0 1%;
+    font-size: 105px;
+}
+
+#about_us .about_p{
+    font-size: 24px;
+    color: #133A73;
 }
