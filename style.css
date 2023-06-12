@@ -5,6 +5,10 @@
     font-family: 'Hauora';
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header li {
     list-style: none;
 }
@@ -449,5 +453,77 @@ input[type=submit] {
     .service_para{
         font-size: 15px;
         font-weight: 600;
+    }
+}
+
+/*reviews*/
+#reviews{
+    margin-top: 5rem;
+}
+
+#reviews .head_line{
+    padding: 0 5rem;
+    color: #133A73;
+    font-size: 97px;
+    width: 100%;
+}
+
+.reviews_p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.p_detail{
+    margin: 1rem 5rem;
+    padding: 0.5rem 4rem;
+    background-color: #E9E6DE;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.seprator{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17rem;
+}
+
+.g_review{
+    margin-right: 4rem;
+    width: 100%;
+    border-radius: 10px;
+    padding: 7rem 6rem;
+    background-color: #E9E6DE;
+}
+
+.column5{
+    flex: 40%;
+    display: justify;
+}
+
+.column6{
+    margin-right: 5rem;
+    flex: 60%;
+    display: justify;
+}
+
+@media(max-width: 992px){
+    #reviews .head_line{
+        font-size: 25px;
+        padding: 0 2rem;
+        font-weight: bold;
+    }
+    #reviews{
+        overflow-x: hidden;
+    }
+    .g_review{
+        margin-left: 1rem;
+    }
+    .column6{
+        margin: 0 2rem 0 0;
+    }
+    .column5{
+        
     }
 }
