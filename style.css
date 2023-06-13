@@ -499,7 +499,7 @@ header {
 }
 
 .p_detail {
-    margin: 1rem 15rem;
+    margin: 1rem 5rem;
     padding: 0.5rem 4rem;
     background-color: #E9E6DE;
     border-radius: 10px;
@@ -544,6 +544,12 @@ header {
 
     #reviews {
         overflow-x: hidden;
+    }
+
+    .p_detail {
+        margin: 1rem;
+        padding: 0.5rem 4rem;
+        justify-content: center;
     }
 
     .g_review {
