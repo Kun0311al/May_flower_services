@@ -759,6 +759,7 @@ header {
 
     .fb_links {
         margin-top: 20px;
+        padding: 0 10px;
         flex-direction: column;
         width: 90%;
     }
