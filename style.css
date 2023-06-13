@@ -757,6 +757,10 @@ header {
         margin: 1rem;
     }
 
+    .top_row img{
+        padding-left: 10px;
+    }
+
     .f_links {
         margin-top: 20px;
         padding: 0 10px;
