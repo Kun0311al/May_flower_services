@@ -758,7 +758,7 @@ header {
     }
 
     .top_row img{
-        padding-left: 0;
+        margin-left: 5px;
     }
 
     .f_links {
