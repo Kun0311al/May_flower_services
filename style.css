@@ -159,7 +159,7 @@ header {
 }
 
 #hero img {
-    height: 90%;
+    height: 95%;
     width: 100%;
 }
 
@@ -253,7 +253,7 @@ header {
 
 .contact_us {
     margin-top: 20px;
-    padding: 35px 30px;
+    padding: 30px 30px;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -749,7 +749,7 @@ header {
     display: none;
 }
 
-.responsive{
+.responsive {
     display: none;
 }
 
@@ -758,7 +758,7 @@ header {
         margin: 1rem;
     }
 
-    .top_row img{
+    .top_row img {
         width: 80%;
     }
 
@@ -784,15 +784,73 @@ header {
         padding-top: 0;
     }
 
-    .bottom_row p{
+    .bottom_row p {
         font-size: 12px;
     }
 
-    .non_responsive{
+    .non_responsive {
         display: none;
     }
 
-    .responsive{
+    .responsive {
         display: inline;
+    }
+}
+
+.testmonials{
+    padding: 40px 0;
+    background: #133A73;
+    color: #000;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.t_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.t_col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testmonial{
+    background: #D9D9D9;
+    padding: 30px;
+}
+
+.testmonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+@media screen and(max-width:992px) {
+    .t_col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .t_col{
+        flex: 100%;
+        max-width: 100%;
     }
 }
