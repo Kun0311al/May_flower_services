@@ -1,13 +1,15 @@
-// const toggleBtn = document.querySelector('.toggle_btn')
-// const toggleBtnIcon = document.querySelector('.toggle_btn i')
-// const dropDownMenu = document.querySelector('.dropdown_menu')
+const loginForm = document.getElementById('login-form');
+const signupForm = document.getElementById('signup-form');
 
-// toggleBtn.onclick = function () {
-//   dropDownMenu.classList.toggle('open')
-//   const isOpen = dropDownMenu.classList.contains('open')
-//   toggleBtnIcon.classList = isOpen
-//     ? 'fa-solid fa-xmark'
-//     : 'fa-solid fa-bars'
-// }
+loginForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Handle login logic here
+  console.log('Login submitted');
+});
 
+signupForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Handle signup logic here
+  console.log('Sign Up submitted');
+});
 
