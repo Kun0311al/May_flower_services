@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+/*header and navebar*/
 header li {
     list-style: none;
 }
@@ -69,7 +70,7 @@ header {
     scale: 1.05;
 }
 
-/* dropdown*/
+/* dropdown menu( responsive view)*/
 .dropdown_menu {
     display: none;
     position: absolute;
