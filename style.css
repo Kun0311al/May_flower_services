@@ -169,6 +169,7 @@ header {
     #hero .head_line {
         font-size: 25px;
         font-weight: bold;
+        line-height: 25px;
     }
 
     .row {
@@ -323,6 +324,7 @@ header {
     #m_insurance .head_line {
         font-size: 25px;
         font-weight: bold;
+        line-height: 25px;
     }
 
     #m_insurance img {
@@ -386,6 +388,7 @@ header {
         padding: 1% 1%;
         font-size: 30px;
         width: 100%;
+        line-height: 25px;
     }
 
     #about_us img {
@@ -437,6 +440,7 @@ header {
 }
 
 .card-item img {
+    width: 85%;
     padding: 10px;
 }
 
@@ -476,6 +480,7 @@ header {
     #services .head_line {
         font-size: 30px;
         margin-bottom: 20px;
+        line-height: 25px;
     }
 
     .service_para {
@@ -497,9 +502,10 @@ header {
     width: 100%;
 }
 
-.row {
+.t-row {
     display: flex;
     flex-direction: row;
+    margin-top: 4rem;
 }
 
 .column5 {
@@ -514,6 +520,10 @@ header {
     flex-direction: column;
 }
 
+.p-slides svg{
+    margin-left: 250px;
+}
+
 .column5 a {
     text-decoration: none;
     color: #000;
@@ -525,14 +535,14 @@ header {
 
 .p-details {
     display: flex;
-    line-height: 10px;
+    line-height: 30px;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
     margin: 20px 40px;
     padding: 10px 0;
-    background-color: #d9d9d9;
+    background-color: #E9E6DE;
 }
 
 .slides {
@@ -618,8 +628,16 @@ header {
     font-size: 100px;
 }
 
+.p-detail h2{
+    color: #000;
+}
+
+.p-detail span{
+    color: #606060;
+}
+
 @media (max-width:992px) {
-    .row {
+    .t-row {
         flex-direction: column;
     }
 
@@ -635,9 +653,21 @@ header {
         flex-direction: row;
     }
 
+    .p-slides svg{
+        display: none;
+    }
+
     .p-details{
         width: 100%;
         padding: 5px 10px;
+    }
+
+    .p-detail h2{
+        font-size: 20px;
+    }
+
+    .p-detail span{
+        font-size: 15px;
     }
 
     .ap-details{
@@ -653,6 +683,7 @@ header {
     #reviews .head_line {
         font-size: 28px;
         padding: 0 2rem;
+        line-height: 25px;
         font-weight: bold;
     }
 
@@ -719,7 +750,7 @@ header {
 }
 
 .contact_form input[type=submit] {
-    width: 50%;
+    width: 86%;
     background-color: #E9E6DE;
     color: #133A73;
     padding: 12px 20px;
@@ -728,7 +759,7 @@ header {
     cursor: pointer;
     font-size: 16px;
     box-shadow: 0 8px 10px 0 #133A73;
-    margin-left: 11rem;
+    margin-left: 3rem;
 }
 
 @media(max-width: 992px) {
@@ -738,6 +769,7 @@ header {
 
     #help_desk .head_line {
         text-align: left;
+        line-height: 25px;
         font-size: 32px;
         font-weight: bold;
         margin-top: 4rem;
