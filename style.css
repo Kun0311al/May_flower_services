@@ -591,7 +591,7 @@ header {
     height: 100%;
     margin-right: 50px;
     border-radius: 10px;
-    background: blue;
+    background: #E9E6DE;
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
@@ -599,8 +599,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
 }
+
+.slide {
+    padding: 15%;
+    text-align: left;
+  }
+  
+  .stars {
+    margin: 10px 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
 
 /**/
 .p-slides {
