@@ -322,7 +322,7 @@ header {
 
 #m_insurance img {
     width: 65%;
-    padding: 0 15px;
+    padding: 5px 15px 0 15px;
 }
 
 @media (max-width: 992px) {
