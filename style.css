@@ -661,7 +661,7 @@ p {
     font-size: 100px;
 }
 
-.p-info img{
+.p-info img {
     width: 50px;
     height: 50px;
 }
@@ -698,10 +698,11 @@ p {
         display: none;
     }
 
-    .ap-details{
+    .ap-details {
         width: 130%;
         margin: 0 5px;
     }
+
     .p-details {
         width: 110%;
         padding: 5px 5px;
