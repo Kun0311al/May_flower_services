@@ -693,6 +693,9 @@ p {
         display: none;
     }
 
+    .ap-details{
+        width: 100%;
+    }
     .p-details {
         width: 100%;
         padding: 5px 5px;
