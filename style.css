@@ -559,7 +559,7 @@ header {
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
-    margin: 20px 20px 20px 65px;
+    margin: 20px 20px 20px 60px;
     padding: 18px 10px;
     background-color: #E9E6DE;
 }
@@ -699,12 +699,13 @@ p {
     }
 
     .ap-details{
-        width: 133%;
+        width: 130%;
         margin: 0 5px;
     }
     .p-details {
-        width: 120%;
+        width: 110%;
         padding: 5px 5px;
+        margin: 20px 60px 20px 20px;
     }
 
     .p-detail h2 {
