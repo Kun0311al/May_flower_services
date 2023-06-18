@@ -430,8 +430,55 @@ header {
     margin: 0;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.service-image img {
+    width: 325px;
+    height: 325px;
+    border-radius: 10px;
+}
+
+.service-name {
+    margin-top: 10px;
+    background-color: #fff;
+    width: 100%;
+    line-height: 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.service-name span{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .s-card {
+        margin: 10px;
+    }
+}
+
+
 @media (max-width: 992px) {
-        #sevices {
+    #sevices {
         padding: 1% 1%;
     }
 
@@ -478,7 +525,7 @@ header {
     flex-direction: column;
 }
 
-.p-slides svg{
+.p-slides svg {
     margin-left: 250px;
 }
 
@@ -587,11 +634,11 @@ header {
     font-size: 100px;
 }
 
-.p-detail h2{
+.p-detail h2 {
     color: #000;
 }
 
-.p-detail span{
+.p-detail span {
     color: #606060;
 }
 
@@ -612,24 +659,24 @@ header {
         flex-direction: row;
     }
 
-    .p-slides svg{
+    .p-slides svg {
         display: none;
     }
 
-    .p-details{
+    .p-details {
         width: 100%;
         padding: 5px 10px;
     }
 
-    .p-detail h2{
+    .p-detail h2 {
         font-size: 20px;
     }
 
-    .p-detail span{
+    .p-detail span {
         font-size: 15px;
     }
 
-    .ap-details{
+    .ap-details {
         margin: 0 15px;
     }
 
@@ -930,4 +977,3 @@ header {
 .form button:hover {
     background-color: #45a049;
 }
-
