@@ -695,6 +695,7 @@ p {
 
     .ap-details{
         width: 133%;
+        margin: 0 5px;
     }
     .p-details {
         width: 120%;
