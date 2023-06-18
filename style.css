@@ -215,7 +215,7 @@ header {
 }
 
 .stat h3 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 100;
     margin-bottom: 10px;
 }
@@ -331,10 +331,11 @@ header {
         line-height: 18px;
     }
 
-    #m_insurance svg{
+    #m_insurance svg {
         width: 48px;
         height: 48px;
     }
+
     #m_insurance img {
         width: 100%;
         padding: 0 15px;
@@ -469,7 +470,7 @@ header {
     text-align: left;
 }
 
-.service-name span{
+.service-name span {
     font-size: 13px;
 }
 
@@ -490,6 +491,7 @@ header {
         font-size: 15px;
         font-weight: 600;
     }
+
     .card-container {
         flex-wrap: wrap;
     }
@@ -498,7 +500,7 @@ header {
         margin: 10px;
     }
 
-    .s-card svg{
+    .s-card svg {
         display: none;
     }
 }
@@ -555,8 +557,8 @@ header {
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
-    margin: 20px 65px;
-    padding: 10px 0;
+    margin: 20px 20px 20px 65px;
+    padding: 18px 10px;
     background-color: #E9E6DE;
 }
 
@@ -564,7 +566,7 @@ header {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    height: 400px;
+    height: 430px;
     margin: 0 4rem;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -604,16 +606,16 @@ header {
 .slide {
     padding: 15%;
     text-align: left;
-  }
-  
-  .stars {
+}
+
+.stars {
     margin: 10px 0;
-  }
-  
-  p {
+}
+
+p {
     line-height: 1.5;
-  }
-  
+}
+
 
 /**/
 .p-slides {
@@ -709,7 +711,8 @@ header {
     .column6 {
         width: 100%;
     }
-    .slides{
+
+    .slides {
         margin-left: 20px;
         width: 91%;
     }
@@ -893,7 +896,7 @@ header {
     line-height: 30px;
 }
 
-.fb_links ul{
+.fb_links ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -926,12 +929,12 @@ header {
         padding: 2rem 0.8rem 2rem 1.3rem;
     }
 
-    .footer li{
+    .footer li {
         font-size: 15px;
         font-weight: 400;
     }
 
-    .fb_links li{
+    .fb_links li {
         text-decoration: none;
         list-style-type: none;
         font-size: 15px;
@@ -948,7 +951,7 @@ header {
         width: 95%;
     }
 
-    .fb_links ul{
+    .fb_links ul {
         flex-direction: column;
         width: 100%;
     }
