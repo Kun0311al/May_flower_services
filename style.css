@@ -897,6 +897,9 @@ header {
         padding: 2rem 0.8rem 2rem 1.3rem;
     }
 
+    .footer li{
+        font-size: 15px;
+    }
     .top_row img {
         width: 80%;
     }
