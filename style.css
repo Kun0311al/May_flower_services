@@ -552,7 +552,7 @@ header {
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
-    margin: 20px 40px;
+    margin: 20px 65px;
     padding: 10px 0;
     background-color: #E9E6DE;
 }
@@ -689,6 +689,10 @@ header {
 
     .column6 {
         width: 100%;
+    }
+    .slides{
+        margin-left: 20px;
+        width: 91%;
     }
 }
 
