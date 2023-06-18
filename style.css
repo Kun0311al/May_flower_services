@@ -663,6 +663,7 @@ header {
     .p-slides {
         width: 150%;
         margin: 0;
+        padding-left: 0;
         flex-direction: row;
     }
 
