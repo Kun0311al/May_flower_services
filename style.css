@@ -683,7 +683,7 @@ p {
     }
 
     .p-slides {
-        width: auto;
+        width: 150%;
         margin: 0;
         padding-left: 0;
         flex-direction: row;
@@ -694,10 +694,10 @@ p {
     }
 
     .ap-details{
-        width: auto;
+        width: 150%;
     }
     .p-details {
-        width: auto;
+        width: 150%;
         padding: 5px 5px;
     }
 
