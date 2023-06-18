@@ -742,12 +742,6 @@ header {
     width: 100%;
 }
 
-.contact_form .icon {
-    padding-top: 20px;
-    padding-left: 60px;
-    min-width: 40px;
-}
-
 .contact_form input[type=text],
 .contact_form input[type=email] {
     width: 40%;
@@ -803,10 +797,9 @@ header {
         margin-top: 4rem;
     }
 
-    .contact_form .icon {
-        padding-top: 20px;
-        padding-left: 15px;
-        min-width: 40px;
+    .contact_form .input-icons svg {
+        position: absolute;
+        margin-left: 10px;
     }
 
     .contact_form input[type=text],
