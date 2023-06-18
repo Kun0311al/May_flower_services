@@ -366,7 +366,7 @@ header {
 #about_us .about_p {
     font-size: 18px;
     color: #133A73;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 #about_us .column3 {
@@ -433,9 +433,8 @@ header {
 
 .service_para {
     font-size: 18px;
-    font-weight: 600;
     color: #133A73;
-    margin: 0;
+    font-weight: 500;
 }
 
 .card-container {
@@ -487,6 +486,7 @@ header {
     }
 
     .service_para {
+        padding-top: 10px;
         font-size: 15px;
         font-weight: 600;
     }
