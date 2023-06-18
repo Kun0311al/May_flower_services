@@ -894,6 +894,7 @@ header {
 @media(max-width: 992px) {
     .footer {
         margin: 1rem;
+        padding: 2rem 2rem 2rem 2rem;
     }
 
     .top_row img {
