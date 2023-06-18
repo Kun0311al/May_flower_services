@@ -661,6 +661,11 @@ p {
     font-size: 100px;
 }
 
+.p-info img{
+    width: 50px;
+    height: 50px;
+}
+
 .p-detail h2 {
     color: #000;
 }
