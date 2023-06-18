@@ -261,8 +261,10 @@ header {
     font-weight: lighter;
 }
 
-.input-icons i {
+.input-icons svg {
     position: absolute;
+    margin-top: 18px;
+    margin-left: 13px;
 }
 
 .input-icons {
@@ -324,9 +326,13 @@ header {
     #m_insurance .head_line {
         font-size: 25px;
         font-weight: bold;
-        line-height: 25px;
+        line-height: 18px;
     }
 
+    #m_insurance svg{
+        width: 48px;
+        height: 48px;
+    }
     #m_insurance img {
         width: 100%;
         padding: 0 15px;
@@ -727,8 +733,9 @@ header {
     padding: 35px 30px;
 }
 
-.contact_form .input-icons i {
+.contact_form .input-icons svg {
     position: absolute;
+    margin-left: 55px;
 }
 
 .contact_form .input-icons {
@@ -747,7 +754,7 @@ header {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding-left: 35px;
+    padding-left: 38px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
