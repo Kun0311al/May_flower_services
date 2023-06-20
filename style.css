@@ -55,12 +55,14 @@ header {
 
 .login_btn {
     background-color: #FDCB16;
-    color: #140001;
-    padding: 0.9rem 3rem;
+    color: #133A73;
+    padding: 0.5rem 2.9rem;
     border: none;
     outline: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 19px;
+    letter-spacing: -0.6px;
+    line-height: 29px;
     cursor: pointer;
 }
 
@@ -304,11 +306,11 @@ header {
     background-color: #133A73;
     color: white;
     padding: 12px 20px;
-    border: none;
+    border: 1px solid #000;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 5px 10px 30px #133A73;
+    box-shadow: 10px 8px 10px #133A73;
 }
 
 /*m_insurance*/
@@ -323,29 +325,33 @@ header {
     font-size: 85px;
     font-weight: 900;
     line-height: 90px;
+    letter-spacing: -4.2px;
     text-align: right;
 }
 
 #m_insurance img {
-    width: 65%;
-    padding: 0 15px;
+    position: relative;
+    bottom: 50px;
 }
 
 @media (max-width: 992px) {
     #m_insurance .head_line {
         font-size: 25px;
         font-weight: 600;
-        line-height: 18px;
+        line-height: 6px;
+        letter-spacing: 1px;
     }
 
     #m_insurance svg {
         width: 48px;
-        height: 48px;
+        height: 40px;
+        position: relative;
+        top: 10px;
     }
 
     #m_insurance img {
         width: 100%;
-        padding: 0 15px;
+        top: 6px;
         padding: 5px 15px 0 15px;
     }
 }
@@ -357,13 +363,15 @@ header {
 
 #about_us {
     padding: 0 6%;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    letter-spacing: -1px;
 }
 
 #about_us .head_line {
     color: #133A73;
     padding: 0 1%;
-    font-size: 80px;
+    font-size: 96px;
+    font-weight: 900;
     width: 100%;
 }
 
@@ -373,9 +381,13 @@ header {
 }
 
 #about_us .about_p {
-    font-size: 18px;
+    font-size: 24px;
     color: #133A73;
     font-weight: 500;
+    margin-top: 30px;
+    line-height: 28px;
+    text-align: left;
+    padding-right: 1.9rem;
 }
 
 #about_us .column3 {
@@ -394,6 +406,9 @@ header {
 }
 
 @media (max-width: 992px) {
+    #about_us{
+        margin-top: 1.3rem;
+    }
     #about_us .head_line {
         display: none;
     }
@@ -415,8 +430,8 @@ header {
 
     #about_us .about_p {
         padding-top: 10px;
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 500;
     }
 
     .about :nth-child(2) {
@@ -430,26 +445,33 @@ header {
 
 /*services*/
 #services {
-    margin-top: 50px;
+    margin-top: 4rem;
     padding: 0 6%;
 }
 
 #services .head_line {
     color: #133A73;
-    font-size: 80px;
+    font-size: 95px;
+    letter-spacing: -3.3px;
     width: 100%;
 }
 
 .service_para {
-    font-size: 18px;
+    font-size: 24px;
     color: #133A73;
     font-weight: 500;
+    margin-top: 30px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-right: 1.9rem;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2.8rem;
 }
 
 .s-card {
@@ -490,22 +512,28 @@ header {
 
     #services .head_line {
         font-size: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 6px;
         line-height: 25px;
     }
 
     .service_para {
+        margin-top: 10px;
         padding-top: 10px;
-        font-size: 15px;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 500;
     }
 
     .card-container {
         flex-wrap: wrap;
+        margin-top: 10px;
     }
 
     .s-card {
         margin: 10px;
+    }
+
+    .service-image img {
+        height: 275px;
     }
 
     .s-card svg {
@@ -515,14 +543,15 @@ header {
 
 /*reviews*/
 #reviews {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #reviews .head_line {
     padding: 0 5rem;
     color: #133A73;
-    font-size: 97px;
-    font-weight: 550;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -4.2px;
     line-height: 100px;
     width: 100%;
 }
@@ -565,9 +594,13 @@ header {
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
-    margin: 20px 20px 20px 60px;
-    padding: 18px 10px;
+    margin: 0px 20px 20px 60px;
+    padding: 20px 10px;
     background-color: #E9E6DE;
+}
+
+.p-details:active{
+    box-shadow: 0 8px 10px 0 #133A73;
 }
 
 .slides {
@@ -680,6 +713,10 @@ p {
     color: #606060;
 }
 
+#reviews .head_line span{
+    font-size: 65px;
+}
+
 @media (max-width:992px) {
     .t-row {
         flex-direction: column;
@@ -707,6 +744,10 @@ p {
     .ap-details {
         width: 130%;
         margin: 0 5px;
+    }
+
+    .slide{
+        padding: 10%;
     }
 
     .p-details {
@@ -739,42 +780,54 @@ p {
 
 @media(max-width: 992px) {
     #reviews .head_line {
-        font-size: 28px;
+        font-size: 27px;
         padding: 0 2rem;
-        line-height: 25px;
-        font-weight: 550;
+        line-height: 28px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
     }
 
     #reviews {
         overflow-x: hidden;
+        margin-top: 4rem;
+    }
+
+    #reviews .head_line span{
+        font-size: 25px;
+    }
+
+    #reviews svg{
+        margin-bottom: 30px;
     }
 }
 
 /*be a part*/
 #help_desk {
-    margin: 4rem;
+    margin-top: 4rem;
 }
 
 #help_desk .head_line {
     text-align: center;
     color: #133A73;
-    font-size: 80px;
-    font-weight: 600;
-    line-height: 100px;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -3.8px;
+    line-height: 102px;
     width: 100%;
 }
 
 #help_desk h1 {
-    margin: 3rem 0;
+    margin: 1rem 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.5px;
 }
 
 .contact_form {
     background-color: #133A73;
-    margin-top: 20px;
-    margin-left: 14rem;
-    margin-right: 14rem;
+    margin: 2.5rem 14rem 6rem 14rem;
     border-radius: 10px;
     padding: 35px 30px;
 }
@@ -818,29 +871,31 @@ p {
 
 @media(max-width: 992px) {
     #help_desk {
-        margin: 1rem;
+        margin: 2rem;
     }
 
     #help_desk .head_line {
         text-align: left;
-        line-height: 25px;
+        line-height: 28px;
+        letter-spacing: -0.5px;
         font-size: 32px;
-        font-weight: 600;
-        margin-top: 4rem;
+        font-weight: 700;
+        margin-top: 2rem;
     }
 
     #help_desk h1 {
-        margin: 1rem 0;
+        margin: 6px 0;
         text-align: left;
-        font-size: 20px;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.5px;
     }
 
     .contact_form {
         width: 100%;
         background-color: #133A73;
         border-radius: 10px;
-        margin: 0;
-        margin-top: 4rem;
+        margin: 2rem 0 3rem 0;
     }
 
     .contact_form .input-icons svg {
@@ -884,11 +939,13 @@ p {
 .f_links {
     background-color: #D9D9D9;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 16px;
     font-size: 17px;
     font-weight: 525;
     line-height: 30px;
+    letter-spacing: -0.5px;
     width: 200px;
+    height: 200px;
 }
 
 .f_links ul {
@@ -900,19 +957,32 @@ p {
     color: #000;
 }
 
+.column7{
+    width: 30%;
+}
+
 .top_row {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.top_row .column h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: -0.5px;
 }
 
 .fb_links {
     background-color: #D9D9D9;
     padding: 2rem;
-    width: 61%;
+    width: 68%;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 525;
-    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: 29px;
 }
 
 .fb_links ul {
@@ -964,8 +1034,13 @@ p {
 
     .f_links {
         margin-top: 20px;
-        padding: 0 10px;
+        padding: 10px 10px;
         width: 95%;
+        height: auto;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+        line-height: 23px;
     }
 
     .fb_links ul {
@@ -978,6 +1053,10 @@ p {
         padding: 0 10px;
         flex-direction: column;
         width: 95%;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: -0.3px;
     }
 
     .fb_disc,
@@ -999,6 +1078,14 @@ p {
 
     .responsive {
         display: inline;
+    }
+
+    .column7{
+        width: 90%;
+    }
+
+    .top_row svg{
+        display: none;
     }
 }
 
