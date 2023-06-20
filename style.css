@@ -168,11 +168,11 @@ header {
 
 @media (max-width: 992px) {
     #hero {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     #hero .head_line {
-        font-size: 30px;
+        font-size: 27px;
         /* font-weight:700; */
         line-height: 30px;
         letter-spacing: 1px;
