@@ -317,7 +317,7 @@ header {
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
-    box-shadow: 10px 8px 10px #133A73;
+    box-shadow: rgba(19, 58, 115, 1.25) 0px 13px 27px -10px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
 }
 
 /*m_insurance*/
