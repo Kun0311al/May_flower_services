@@ -7,7 +7,7 @@
     if($con->connect_error){
         die('Connection Failed :' .$con->connect_error);
     }else{
-        $stmt = $con->prepare("insert into registration(Name, Email) values(?, ?)");
+        $stmt = $con->prepare("insert into contactus1(Name, Email) values(?, ?)");
         $stmt->bind_param("ss",$Name, $Email);
         $stmt->execute();
         echo "We will contact you soon..";
