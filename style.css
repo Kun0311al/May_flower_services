@@ -1,10 +1,7 @@
-@import '@fontsource/hauora-sans/200.css';
-@import '@fontsource/hauora-sans/300.css';
 @import '@fontsource/hauora-sans/400.css';
 @import '@fontsource/hauora-sans/500.css';
 @import '@fontsource/hauora-sans/600.css';
 @import '@fontsource/hauora-sans/700.css';
-@import '@fontsource/hauora-sans/800.css';
 * {
     margin: 0;
     padding: 0;
@@ -609,12 +606,13 @@ header {
 .p-details {
     display: flex;
     line-height: 30px;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:flex-start;
+    align-items:flex-start;
+    text-align: left;
     flex-direction: row;
     border-radius: 10px;
     margin: 0px 20px 20px 60px;
-    padding: 20px 10px;
+    padding: 15.5px 10px 15.5px 30px;
     background-color: #E9E6DE;
 }
 
@@ -723,16 +721,26 @@ header {
 }
 
 .p-info img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
 }
 
+.p-detail{
+    margin: 12px 0 0 45px;
+}
 .p-detail h2 {
     color: #000;
+    font-size: 20px;
+    line-height: 21.3px;
+    letter-spacing: -0.5px;
 }
 
 .p-detail span {
     color: #606060;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.5px;
 }
 
 #reviews .head_line span{
