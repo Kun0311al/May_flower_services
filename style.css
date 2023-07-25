@@ -1087,7 +1087,7 @@ header {
     }
 
     .fb_links {
-        margin-top: 20px;
+        margin: 20px 0 0 0;
         padding: 0 10px;
         flex-direction: column;
         width: 95%;
@@ -1116,6 +1116,7 @@ header {
 
     .responsive {
         display: inline;
+        margin: 0 8px 0 15px;
     }
 
     .column7{
