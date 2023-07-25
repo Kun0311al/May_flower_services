@@ -106,7 +106,7 @@ header {
 }
 
 /*responsive navbar*/
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .navbar {
         margin: 1rem auto;
         padding-bottom: 1px;
@@ -131,7 +131,7 @@ header {
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .dropdown_menu {
         left: 2rem;
         width: unset;
@@ -174,7 +174,7 @@ header {
     width: 100%;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #hero {
         margin-top: 0rem;
     }
@@ -238,7 +238,7 @@ header {
     margin: 0;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .card {
         width: 100%;
         margin-top: 18px;
@@ -338,7 +338,7 @@ header {
     bottom: 20px;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #m_insurance .head_line {
         font-size: 27px;
         font-weight: 700;
@@ -412,7 +412,7 @@ header {
     padding: 0 15px;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #about_us{
         margin-top: 1.3rem;
     }
@@ -518,7 +518,7 @@ header {
 }
 
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #sevices {
         padding: 1% 1%;
     }
@@ -747,7 +747,7 @@ header {
     font-size: 65px;
 }
 
-@media (max-width:992px) {
+@media screen and (max-width:992px) {
     .t-row {
         flex-direction: column;
     }
@@ -815,7 +815,7 @@ header {
     }
 }
 
-@media(max-width: 992px) {
+@media screen and (max-width: 992px) {
     #reviews .head_line {
         font-size: 27px;
         padding: 0 2rem;
