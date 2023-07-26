@@ -1123,8 +1123,9 @@ header {
     }
 
     .responsive {
-        display: inline;
-        margin: 0 8px 0 15px;
+        display: block;
+        width: 100%;
+        margin: 0 8px 0 8px;
     }
 
     .column7{
