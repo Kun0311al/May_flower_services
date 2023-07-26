@@ -1020,6 +1020,10 @@ header {
     letter-spacing: -0.5px;
 }
 
+.top_row img {
+    width: 80%;
+}
+
 .fb_links {
     background-color: #D9D9D9;
     padding: 2rem;
