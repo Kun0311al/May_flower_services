@@ -946,6 +946,7 @@ header {
     .contact_form .input-icons svg {
         position: absolute;
         margin-left: 10px;
+        display: block;
     }
 
     .contact_form input[type=text],
