@@ -285,6 +285,7 @@ header {
     position: absolute;
     margin-top: 18px;
     margin-left: 13px;
+    display: block;
 }
 
 .input-icons {
@@ -878,6 +879,7 @@ header {
 .contact_form .input-icons svg {
     position: absolute;
     margin-left: 55px;
+    display: inline-block;
 }
 
 .contact_form .input-icons {
