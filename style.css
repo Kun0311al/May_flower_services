@@ -47,7 +47,7 @@ header {
 
 .navbar .links {
     display: flex;
-    gap: 2.3rem;
+    gap: 3rem;
 }
 
 .navbar .toggle_btn {
