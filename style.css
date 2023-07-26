@@ -16,6 +16,7 @@ body {
 /*header and navebar*/
 header li {
     list-style: none;
+    padding: 0 8px;
 }
 
 header a {
