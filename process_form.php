@@ -4,10 +4,10 @@ $name = $_POST['pName'];
 $email = $_POST['pEmail'];
 
 // Database connection settings
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'mayflower';
+$servername = 'bom1plzcpnl503502';
+$username = 'dataeditor';
+$password = 'Mayflower!12';
+$dbname = 'mayflower_userdb';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 // Insert data into the database
-$sql = "INSERT INTO contactus (Name, Email) VALUES ('$name', '$email')";
+$sql = "INSERT INTO Contactdetails (User_Name, Email) VALUES ('$name', '$email')";
 
 if ($conn->query($sql) === true) {
     echo "Data inserted successfully!";
