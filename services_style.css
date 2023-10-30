@@ -179,3 +179,29 @@ header {
     padding-top: 10px;
 }
 
+.sec2{
+    margin-top: 70px;
+    padding: 0 5%;
+}
+
+.sec2 h2{
+    color: #1E3C71;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 28px; /* 58.333% */
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+
+.sec2 p{
+    color: #365A88;
+    padding-top: 10px;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+}
