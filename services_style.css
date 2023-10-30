@@ -143,3 +143,39 @@ header {
         width: unset;
     }
 }
+
+.sec1{
+    margin-top: 80px;
+    padding: 0 5%;
+    display: flex;
+}
+
+.sec1 .area{
+    width: 50%;
+}
+
+#info{
+    padding: 0 50px 0 0;
+}
+
+.area h1{
+    color: #1E3C71;
+    font-family: 'Hauora', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 106.5%; /* 102.24px */
+    letter-spacing: -4.203px;
+    margin-bottom: 50px;
+}
+
+.area p{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 26.5px; /* 133.333% */
+    letter-spacing: -0.21px;
+    padding-top: 10px;
+}
+
