@@ -205,3 +205,213 @@ header {
     line-height: 28px; /* 133.333% */
     letter-spacing: -0.21px;
 }
+
+.sec3{
+    margin-top: 55px;
+    padding: 0 5%;
+}
+
+.sec3_head{
+    color: #1E3C71;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px; /* 70% */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.service_list{
+    display: flex;
+}
+
+.s_list{
+    width: 50%;
+}
+
+.s_list h3{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px; /* 87.5% */
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.s_list p{
+    color: #365A88;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-top: 10px;
+}
+
+.sec3_p{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-top: 30px;
+}
+
+.sec4{
+    margin-top: 55px;
+    padding: 0 5%;
+}
+
+.sec4 h3{
+    color: #1E3C71;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px; /* 70% */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.sec4 p{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-bottom: 15px;
+}
+
+.sec4 ul li{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin: 0 0 13px 23px;
+}
+
+.sec5{
+    margin-top: 55px;
+    padding: 0 5%;
+    display: flex;
+}
+
+.ser_list{
+    width: 50%;
+}
+
+.ser_list h3{
+    color: #1E3C71;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px; /* 70% */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+.ser_list p{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-top: 30px;
+}
+
+.ser_list ul{
+    margin: 15px 0 0 23px;
+}
+
+.ser_list ul li{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-bottom: 13px;
+}
+
+.ser_list span{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-top: 15px;
+}
+
+.ser_list .extra_ser_list{
+    margin-top: 55px;
+}
+
+.sec6{
+    margin-top: 55px;
+    padding: 0 5%;
+}
+
+.sec6 .sec6_head{
+    color: #1E3C71;
+    text-align: justify;
+    font-family: 'Hauora', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 28px; /* 70% */
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+.sec6 p{
+    color: #365A88;
+    text-align: justify;
+    font-family: 'Hauora' sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
+    margin-top: 55px;
+}
+
+.sec6 .all_services{
+    display: flex;
+    gap: 8%;
+}
+
+.sec6 .all_s{
+    width: 50%;
+}
+
+.sec6 .all_s h3{
+    color: #365A88;
+    font-family: 'Hauora', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.sec6 .all_s p{
+    margin-top: 10px;
+    text-align: left;
+}
