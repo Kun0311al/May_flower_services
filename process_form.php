@@ -22,8 +22,9 @@ $sql = "INSERT INTO Contactdetails (User_Name, Email) VALUES ('$name', '$email')
 
 if ($conn->query($sql) === true) {
     echo "Data inserted successfully!";
+    header("refresh: 2; url = https://mayflowertruckpermits.com/");
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error: ";
 }
 
 // Close the database connection
