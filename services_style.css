@@ -200,7 +200,7 @@ header {
         color: #1E3C71;
         margin-top: 30px;
         font-size: 27px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 106.5%; /* 28.755px */
         letter-spacing: -0.5px;
         margin-bottom: 25px;
@@ -243,7 +243,7 @@ header {
 
 @media screen and (max-width: 480px) {
     .sec2 h2{
-        line-height: 36px;
+        line-height: 30px;
         font-size: 21px;
         text-align: left;
         margin: 30px 0;
@@ -317,7 +317,7 @@ header {
 
 @media screen and (max-width: 480px) {
     .sec3_head{
-        line-height: 36px;
+        line-height: 30px;
         font-size: 19px;
         text-align: left;
         margin: 30px 0 0 0 ;
@@ -385,6 +385,25 @@ header {
     margin: 0 0 13px 23px;
 }
 
+@media screen and (max-width: 480px) {
+    .sec4 h3{
+        line-height: 30px;
+        font-size: 19px;
+        text-align: left;
+        margin: 30px 0 0 0 ;
+    }
+    .sec4 p{
+        font-size: 13px;
+        line-height: 106.5%;
+        letter-spacing: 0.5px;
+    }
+    .sec4 ul li{
+        font-size: 13px;
+        line-height: 106.5%;
+        letter-spacing: 0.5px;
+    }
+}
+
 .sec5{
     margin-top: 55px;
     padding: 0 5%;
@@ -447,6 +466,37 @@ header {
     margin-top: 55px;
 }
 
+@media screen and (max-width: 480px) {
+    .sec5{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .ser_list{
+        width: 100%;
+    }
+    .ser_list h3{
+        line-height: 30px;
+        font-size: 19px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    .ser_list p,
+    .ser_list span{
+        font-size: 13px;
+        line-height: 106.5%;
+        letter-spacing: 0.5px;
+        margin-top: 10px;
+    }
+    .sec5 ul li{
+        font-size: 13px;
+        line-height: 106.5%;
+        letter-spacing: 0.5px;
+    }
+    .ser_list .extra_ser_list{
+        margin-top: 30px;
+    }
+}
+
 .sec6{
     margin: 55px 0 70px 0;
     padding: 0 5%;
@@ -458,7 +508,7 @@ header {
     font-family: 'Hauora', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    line-height: 28px; /* 70% */
+    line-height: 40px; /* 100% */
     letter-spacing: -0.4px;
     text-transform: uppercase;
 }
@@ -496,6 +546,39 @@ header {
 .sec6 .all_s p{
     margin-top: 10px;
     text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    .sec6 .sec6_head{
+        line-height: 30px;
+        font-size: 19px;
+        text-align: left;
+        margin: 30px 0 0 0;
+    }
+    .sec6 p{
+        font-size: 13px;
+        line-height: 106.5%;
+        letter-spacing: 0.5px;
+        margin-top: 10px;
+    }
+    .sec6 .all_services{
+        flex-direction: column;
+    }
+    
+    .sec6 .all_s{
+        width: 100%;
+    }
+    .sec6 .all_s h3{
+        font-size: 15px;
+        margin-top: 20px;
+        letter-spacing: 0.25px;
+    }
+    .sec6 .all_s p{
+        text-align: justify;
+    }
+    .sec6 .last_p{
+        margin-top: 35px;
+    }
 }
 
 
