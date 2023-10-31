@@ -575,7 +575,7 @@ header {
         line-height: 26px; /* 112.5% */
     }
     .sec6 .all_s p{
-        margin-top: 0;
+        margin-top: 10px;
         text-align: justify;
     }
     .sec6 .last_p{
