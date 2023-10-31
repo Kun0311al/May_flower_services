@@ -185,6 +185,7 @@ header {
 @media screen and (max-width: 480px) {
     .sec1{
         flex-direction: column-reverse;
+        margin-top: 0rem;
     }
     .sec1 .area{
         width: 100%;
