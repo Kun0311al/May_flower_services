@@ -210,10 +210,11 @@ header {
         font-size: 27px;
         line-height: 50px;
         letter-spacing: -0.5px;
+        font-weight: 900;
     }
     .sec1 h2{
         margin: 10px 0 20px 0;
-        line-height: 26px;
+        line-height: 20px;
         font-size: 19px;
     }
     .sec1 p{
