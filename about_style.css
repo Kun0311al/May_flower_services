@@ -204,6 +204,7 @@ header {
     }
     .sec1{
         flex-direction: column;
+        margin-top: 0rem;
     }
     .sec1 h1{
         font-size: 27px;
