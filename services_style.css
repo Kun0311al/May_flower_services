@@ -572,7 +572,7 @@ header {
         font-size: 15px;
         margin-top: 20px;
         letter-spacing: 0.25px;
-        line-height: 26px; /* 112.5% */
+        line-height: 20px; /* 112.5% */
     }
     .sec6 .all_s p{
         margin-top: 10px;
