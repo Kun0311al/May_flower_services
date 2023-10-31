@@ -201,7 +201,6 @@ header {
 @media screen and (max-width: 480px) {
     #intro{
         padding: 0;
-        letter-spacing: -0.5px;
     }
     .sec1{
         flex-direction: column;
@@ -209,6 +208,7 @@ header {
     .sec1 h1{
         font-size: 27px;
         line-height: 50px;
+        letter-spacing: -0.5px;
     }
     .sec1 h2{
         margin: 10px 0 20px 0;
