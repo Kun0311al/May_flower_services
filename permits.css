@@ -144,159 +144,75 @@ header {
     }
 }
 
-
-
-
 .sec1{
-    margin-top: 80px;
-    display: flex;
+    margin: 55px 0 70px 0;
     padding: 0 5%;
 }
 
-.area{
-    width: 50%;
-}
-
-#intro{
-    padding: 0 35px 0 0;
-}
-
 .sec1 h1{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 86px;
+    margin-top: 70px;
+    color: #1E3C71;
+    font-family: 'Hauora', sans-serif;
+    font-size: 90px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 102px;
-    letter-spacing: -4.203162670135498px;
-    text-align: left;
-    color: #1E3C71;
-}
-
-.sec1 h2{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 42px;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: #1E3C71;
-    margin: 25px 0;
-}
-
-.sec1 p{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: justify;
-    color: #1E3C71;
-}
-
-.area img{
-    width: 600.5px;
-    height: 469.5px;
-    border-radius: 17.51px;
+    line-height: 106.5%; /* 102.24px */
+    letter-spacing: -4.203px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 480px) {
-    #intro{
-        padding: 0;
-    }
-    .sec1{
-        flex-direction: column;
-        margin-top: 0rem;
+    .sec1 img{
+        width: 100%;
+        height: auto;
     }
     .sec1 h1{
+        color: #1E3C71;
+        margin-top: 30px;
         font-size: 27px;
-        line-height: 50px;
-        letter-spacing: -0.5px;
         font-weight: 900;
-    }
-    .sec1 h2{
-        margin: 10px 0 20px 0;
-        line-height: 20px;
-        font-size: 19px;
-    }
-    .sec1 p{
-        line-height: 13px;
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-    .area{
-        width: 100%;
-    }
-    .area img{
-        width: 100%;
-        height: 100%;
+        line-height: 106.5%; /* 28.755px */
+        letter-spacing: -0.5px;
     }
 }
 
 .sec2{
+    margin: 55px 0 70px 0;
     padding: 0 5%;
 }
 
-.sec2 h2{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 38px;
-    font-weight: 800;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-    text-align: justify;
-    color: #1E3C71;
-    margin-top: 80px;
-}
-
-.why{
-    display: flex;
-}
-
-.whyr{
-    width: 50%;
-    padding: 0 35px 0 0;
-    text-align: justify;
-}
-
-.whyr h3{
-    font-family: 'Hauora Sans', sans-serif;
-    margin: 60px 0 10px 0;
+.sec2 h3{
+    margin-top: 70px;
+    color: #365A88;
+    font-family: 'Hauora', sans-serif;
     font-size: 32px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: justify;
-    color: #365A88;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
 }
 
-.whyr p{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: justify;
+.sec2 p{
+    margin-top: 25px;
     color: #365A88;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
 }
 
 @media screen and (max-width: 480px) {
-    .sec2 h2{
-        line-height: 36px;
-        font-size: 21px;
-        text-align: left;
-        margin-top: 30px;
+    .sec2{
+        margin-top: 20px;
     }
-    .why{
-        flex-direction: column;
-    }
-    .whyr{
-        width: 100%;
-        padding: 0;
-    }
-    .whyr h3{
+    .sec2 h3{
         font-size: 15px;
-        margin-top: 15px;
+        margin-top: 10px;
         letter-spacing: 0.25px;
     }
-    .whyr p{
+    .sec2 p{
         font-size: 13px;
         line-height: 106.5%;
         letter-spacing: 0.5px;
@@ -304,37 +220,32 @@ header {
 }
 
 .sec3{
+    margin: 55px 0 70px 0;
     padding: 0 5%;
-    margin-top: 80px;
-    margin-bottom: 50px;
 }
 
 .sec3 p{
-    font-family: 'Hauora Sans', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.01em;
-    text-align: justify;
+    margin-top: 25px;
     color: #365A88;
-    padding: 15px 0 0 0;
+    font-family: 'Hauora', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 133.333% */
+    letter-spacing: -0.21px;
 }
 
 @media screen and (max-width: 480px) {
-    .sec3{
-        margin-top: 30px;
-    }
     .sec3 p{
         font-size: 13px;
+        margin-top: 5px;
         line-height: 106.5%;
         letter-spacing: 0.5px;
     }
 }
 
 
-
 /*footer*/
-
 .row {
     display: flex;
     flex-direction: row;
